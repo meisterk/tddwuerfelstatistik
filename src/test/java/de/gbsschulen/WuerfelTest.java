@@ -49,7 +49,7 @@ public class WuerfelTest {
         int[] result = wuerfel.getWuerfe(5);
 
         // Assert
-        for (int zahl : result) {
+       for (int zahl : result) {
             assertThat(zahl).isBetween(1, 6);
         }
     }
